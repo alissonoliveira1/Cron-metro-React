@@ -1,0 +1,55 @@
+html{
+    background-color: rgb(158, 216, 255);
+}
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tempo{
+    font-size: 80px;
+    position: relative;
+    top: -11.5rem;
+}
+.img{
+    width: 20%;
+}
+.iniciar{
+    background-color: rgb(238, 238, 238);
+    border: 1px solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 7vh;
+    font-size: 23px;
+    cursor: pointer;
+}
+.iniciar:hover{
+    color: white;
+    background-color: green;
+}
+.limpar:hover{
+    color: white;
+    background-color: rgb(197, 0, 0);
+}
+.limpar{
+    background-color: rgb(238, 238, 238);
+    border: 1px solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 7vh;
+    font-size: 23px;
+    cursor: pointer;
+
+}
+.paibutton{
+    display: flex;
+    gap: 100px;
+}
